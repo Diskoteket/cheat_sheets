@@ -2,7 +2,7 @@
 * ``:e file.txt`` to open a file in new buffer
 * ``:enew`` new empty buffer
 * ``:bp`` or ``:bn`` for previous or next buffer
-* ``:b1 ``:b2`` etc to specifically choosing buffer
+* ``:b1``, ``:b2`` etc to specifically choosing buffer
 * ``:bd`` to exit current buffer
 
 ## Commands
