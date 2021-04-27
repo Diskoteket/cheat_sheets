@@ -1,5 +1,5 @@
 ## Buffers
-:e file.txt = Open a file in new buffer
+* ``:e file.txt`` To open a file in new buffer
 :enew = New empty buffer
 :bp or :bn = Previous or next buffer
 :b1, :b2 etc = Specifically choosing buffer
