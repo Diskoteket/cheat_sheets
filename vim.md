@@ -21,6 +21,7 @@
 * ``:r file.txt`` to read file into current file in buffer
 * ``v`` + selectstuff + ``:sort ui`` to sort stuff i alphabetical order in visual mode
 * ``:%s/replace_me/replace_with_me/g`` to find and replace
+* ``CTRL`` + ``v`` + select stuff = Enter Visual Block-mode and edit stuff, handy for uncommenting multiple lines and so on
 
 ## Preferences
 * If you want to set for example line numbers in Neovim by default, add ``:set number`` to ``~/.config/nvim/init.vim``
