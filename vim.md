@@ -22,6 +22,12 @@
 * ``v`` + selectstuff + ``:sort ui`` to sort stuff i alphabetical order in visual mode
 * ``:%s/replace_me/replace_with_me/g`` to find and replace
 * ``CTRL`` + ``v`` + select stuff = Enter Visual Block-mode and edit stuff, handy for uncommenting multiple lines and so on
+*  ``y`` +  ``$`` = Yank to the end of the current line   
+*  ``:3,5d`` = Delete line 3 to line 5
 
 ## Preferences
 * If you want to set for example line numbers in Neovim by default, add ``:set number`` to ``~/.config/nvim/init.vim``
+
+## Other
+*  ``CTRL`` + ``z`` = Send job to background (Not related to Vim but comes handy)
+*  ``fg 1`` (or ``fg %1`` for zsh) = Bring job to foreground (not related to Vim but comes handy)
