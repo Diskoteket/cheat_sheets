@@ -21,7 +21,8 @@
 * ``:r file.txt`` to read file into current file in buffer
 * ``v`` + selectstuff + ``:sort ui`` to sort stuff i alphabetical order in visual mode
 * ``:%s/replace_me/replace_with_me/g`` to find and replace
-* ``CTRL`` + ``v`` + select stuff = Enter Visual Block-mode and edit stuff, handy for uncommenting multiple lines and so on
+* ``CTRL`` + ``v`` + select stuff + ``dd`` = Enter Visual Block-mode and delete stuff, handy for uncommenting multiple lines and so on
+* ``CTRL`` + ``v`` + select stuff + ``shift`` + ``i`` + edit stuff + ``ESC`` + ``ESC`` = Enter Visual Block-mode and edit stuff, handy for uncommenting multiple lines and so on
 *  ``y`` +  ``$`` = Yank to the end of the current line   
 *  ``:3,5d`` = Delete line 3 to line 5
 
