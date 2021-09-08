@@ -10,6 +10,7 @@
 
 * ``gg`` to navigate to the top of the file
 * ``G`` to navigate to the end of the file
+* * ``42gg`` to navigate to line 42
 
 * ``:noh`` to temporarily disable highlighting until the next search
 
