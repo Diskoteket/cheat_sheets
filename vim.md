@@ -34,3 +34,4 @@
 ## Other
 *  ``CTRL`` + ``z`` = Send job to background (Not related to Vim but comes handy)
 *  ``fg 1`` (or ``fg %1`` for zsh) = Bring job to foreground (not related to Vim but comes handy)
+*  ``ls -la | vim -``  = Read STDIN to Vim
