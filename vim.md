@@ -27,6 +27,9 @@
 *  ``y`` +  ``$`` = Yank to the end of the current line
 *  ``d$`` = Delete from cursor to the end of the line   
 *  ``:3,5d`` = Delete line 3 to line 5
+*  ``dw`` = Delete word from first character (cursor needs to be placed in beginning of character)
+*  ``diw`` = Delete current word you cursor resides in
+*  ``dt<char>`` = Delete to character (from cursor to <char>)
 
 ## Preferences
 * If you want to set for example line numbers in Neovim by default, add ``:set number`` to ``~/.config/nvim/init.vim``
