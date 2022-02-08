@@ -35,7 +35,7 @@
 *  ``dt<char>`` = Delete to character (from cursor to <char>)
 
 ## Preferences
-* If you want to set for example line numbers in Neovim by default, add ``:set number`` to ``~/.vimrc``
+* If you want to set for example line numbers in Neovim by default, add ``set number`` to ``~/.vimrc``
 * Autosaving in vim, add ``autocmd TextChanged,TextChangedI <buffer> silent write`` to ``~/.vimrc``  
 
 ## Other
