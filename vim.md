@@ -19,6 +19,7 @@
 * ``:split file.txt`` to split edit multiple files
 * ``CTRL`` + ``ww`` to switch which split to edit
 * ``:vs file.txt`` to vertical splitview
+* ``o``to start editing new line under current line
 
 ## File manipulation
 * ``:r file.txt`` to read file into current file in buffer
