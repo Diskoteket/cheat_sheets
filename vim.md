@@ -19,7 +19,7 @@
 * ``:split file.txt`` to split edit multiple files
 * ``CTRL`` + ``ww`` to switch which split to edit
 * ``:vs file.txt`` to vertical splitview
-* ``o``to start editing new line under current line
+* ``o`` to start editing new line under current line
 
 ## File manipulation
 * ``:r file.txt`` to read file into current file in buffer
@@ -34,6 +34,8 @@
 *  ``dw`` = Delete word from first character (cursor needs to be placed in beginning of character)
 *  ``diw`` = Delete current word you cursor resides in
 *  ``dt<char>`` = Delete to character (from cursor to <char>)
+*  ``:read !lsblk -f | grep -E 'ext4|xfs'`` = Read into Vim from command
+
 
 ## Preferences
 * If you want to set for example line numbers in Neovim by default, add ``set number`` to ``~/.vimrc``
